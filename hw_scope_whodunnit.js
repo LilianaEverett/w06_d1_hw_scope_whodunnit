@@ -32,7 +32,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
-// prediction: it will breack because murderer in line 20 is trying to change the const murderer
+// it will breack because murderer in line 20 is trying to change the const murderer
 
 // Episode 3
 
@@ -49,8 +49,8 @@ console.log('First Verdict: ', firstVerdict);
 const secondVerdict = `The murderer is ${murderer}.`;
 console.log('Second Verdict: ', secondVerdict);
 
-First Verdict: Mrs Peacock because it's defined inside the method declareMurderer
-Second Verdict: Professor Plum because is not calling the function, only the variable let murderer
+// First Verdict: Mrs Peacock because it's defined inside the method declareMurderer
+// Second Verdict: Professor Plum because is not calling the function, only the variable let murderer
 
 // Episode 4
 
@@ -67,8 +67,8 @@ const suspects = declareAllSuspects();
 console.log(suspects);
 console.log(`Suspect three is ${suspectThree}.`);
 
-console.log(suspects) The suspects are MIss Scarlet, Professor Plum, Colonel Mustard
-console.log(`Suspect three is ${suspectThree}.`) Mrs Peacock
+// console.log(suspects) The suspects are MIss Scarlet, Professor Plum, Colonel Mustard
+// console.log(`Suspect three is ${suspectThree}.`) Mrs Peacock
 
 // Episode 5
 
@@ -92,7 +92,8 @@ console.log(verdict);
 
 // revolver. Because changeWeapon has the argument "revolver" witch is reassigning a new value for weapon
 
-Episode 6
+// Episode 6
+
 let murderer = 'Colonel Mustard';
 
 const changeMurderer = function() {
@@ -143,7 +144,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 
-Mr. Green because the function plotTwist has a new variable with the same name (murderer) it's not reassigning the other murderer variable (Mr green), so, the function changeMurderer is reassigning Mr Green to the first let murderer variable
+// Mr. Green because the function plotTwist has a new variable with the same name (murderer) it's not reassigning the other murderer variable (Mr green), so, the function changeMurderer is reassigning Mr Green to the first let murderer variable
 
 // Episode 8
 
